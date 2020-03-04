@@ -3,6 +3,7 @@
     width: 100%;
     font-weight: bold;
     letter-spacing: 0.025em;
+    background: #ecc9b6;
 }
 
 .NavBar ul {
@@ -17,5 +18,5 @@
 }
 
 .NavBar ul li:hover {
-    background: #00939C;
+    background: #b69e92;
 }
