@@ -4,13 +4,13 @@ import './NavBar.css';
 const NavBar = () => {
     return (
         <div className="NavBar">
-            <NavBar id="NavBar">
+            <Nav id="NavBar">
                 <ul>
                     <li>One</li>
                     <li>Two</li>
                     <li>Three</li>
                 </ul>
-            </NavBar>
+            </Nav>
         </div>
     );
 };
