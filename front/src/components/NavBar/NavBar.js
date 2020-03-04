@@ -4,13 +4,17 @@ import './NavBar.css';
 const NavBar = () => {
     return (
         <div className="NavBar">
-            <liste id="NavBar">
+            <nav id="NavBar">
                 <ul>
-                    <li>One</li>
-                    <li>Two</li>
-                    <li>Three</li>
+                    <li>Accueil</li>
+                    <li>Maison</li>
+                    <li>Santé</li>
+                    <li>Déco</li>
+                    <li>Hygiène & Bien-être</li>
+                    <li>Produits</li>
+                    <li>Zen</li>
                 </ul>
-            </liste>
+            </nav>
         </div>
     );
 };
