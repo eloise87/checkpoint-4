@@ -1,15 +1,17 @@
 import React from 'react';
 import './HomePage.css';
 import NavBar from '../NavBar/NavBar';
+import Footer from "../Footer/Footer";
 
 
 const HomePage = () => {
     return (
         <div>
+            <div id="generalBigTitle">HAKUNA MATATA</div>
             <NavBar/>
 
             <div className="container">
-                <div id="generalBigTitle">HAKUNA MATATA</div>
+
                 <div className="slider">
                     <div className="slides">
                         <div className="slide1"></div>
@@ -19,7 +21,7 @@ const HomePage = () => {
                 </div>
 
             </div>
-            <div id="generalTitle">Vers un monde « Zéro Déchet</div>
+            <div id="generalTitle">Vers un monde Zéro Déchet</div>
 
             <p>
                 Aujourd'hui, la question de l'environnement est au cœur du changement. La transition vers le «
@@ -51,8 +53,36 @@ const HomePage = () => {
                 la planète.
 
             </p>
-
+            <div>
+                <img
+                    className="element"
+                    src={require('../../assets/cui.jpeg')}
+                    alt="Votre psychologue Mathilde Tiberghien"
+                />
+            </div>
+            <div>
+                <img
+                    className="element"
+                    src={require('../../assets/cui.jpeg')}
+                    alt="Votre psychologue Mathilde Tiberghien"
+                />
+            </div>
+            <div>
+                <img
+                    className="element"
+                    src={require('../../assets/cui.jpeg')}
+                    alt=""
+                />
+            </div>
+            <div>
+                <img
+                    className="picturePsy"
+                    src={require('../../assets/cui.jpeg')}
+                    alt="Votre psychologue Mathilde Tiberghien"
+                />
+            </div>
         </div>
+
 
     )
         ;

@@ -1,3 +1,6 @@
+
+
+
 .container {
     width: 100%;
     height: calc(100vh - 74px);
@@ -5,7 +8,7 @@
 }
 
 .slider {
-    width:100%;
+    width: 100%;
     height: 100%;
     overflow: hidden;
 }
@@ -16,14 +19,14 @@
     flex-direction: row;
     width: calc(100vw * 3);
     height: 80%;
-    animation: glisse 25s infinite;
+    padding-top: 5%;
+    animation: glisse 27s infinite;
     z-index: -1;
-    background-color: burlywood;
 
 }
 
 .slide1 {
-    width:100%;
+    width: 80%;
     background: url("../../assets/hbn.jpg");
     background-size: cover;
     background-position: center;
@@ -31,7 +34,7 @@
 }
 
 .slide2 {
-    width:100%;
+    width: 80%;
     background: url("../../assets/zrd.jpg");
     background-size: cover;
     background-position: center;
@@ -39,13 +42,12 @@
 }
 
 .slide3 {
-    width: 100%;
+    width: 80%;
     background: url("../../assets/cuisine.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
 
 @keyframes glisse {
     0% {
@@ -75,3 +77,16 @@
     }
 
 }
+
+p {
+
+    padding: 20px 50px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.element {
+
+    
+}
+

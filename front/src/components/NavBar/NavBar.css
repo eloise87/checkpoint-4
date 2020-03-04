@@ -1,15 +1,11 @@
 
 .NavBar {
+
+    display: flex;
+    justify-content: center;
     width: 100%;
     font-weight: bold;
-    letter-spacing: 0.025em;
     background: #ecc9b6;
-
-}
-
-.NavBar ul {
-    text-align: center;
-    margin: 0;
 }
 
 .NavBar ul li {
