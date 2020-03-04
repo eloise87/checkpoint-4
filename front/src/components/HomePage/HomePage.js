@@ -7,12 +7,17 @@ const HomePage = () => {
     return (
         <div>
             <NavBar/>
-            <div className="slider">
-                <img src={require('../../assets/slide1.jpg')} alt="poignée de main"/>
+            <div className="container">
+                <div className="slider">
+                    <div id="titre">HAKUNA MATATA</div>
+                    <div className="slides">
+                        <div className="slide1"></div>
+                        <div className="slide2"></div>
+                        <div className="slide3"></div>
+                    </div>
+                </div>
             </div>
-            <div className="slider2">
-                <img src={require('../../assets/slide2.jpg')} alt="poignée de main"/>
-            </div>
+
         </div>
     );
 };
