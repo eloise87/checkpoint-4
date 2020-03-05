@@ -77,11 +77,6 @@ const Zen = () => {
                     fleurs se sont ouvertes depuis. À nous de les cueillir.
                 </p>
 
-                <div>
-                    <img className="pict"
-                         src="../../assets/buddha2.jpg"
-                         alt="buddha"/>
-                </div>
                 <Footer/>
 
             </div>
