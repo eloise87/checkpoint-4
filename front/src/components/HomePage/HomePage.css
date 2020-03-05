@@ -1,6 +1,4 @@
 
-
-
 .container {
     width: 100%;
     height: calc(100vh - 74px);
@@ -83,10 +81,34 @@ p {
     padding: 20px 50px;
     text-align: center;
     font-size: 1.3em;
+    line-height: 35px;
+
+}
+
+.elem {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.elem div {
+    width: 30%;
 }
 
 .element {
+    height: 80%;
+    width: 80%;
+    margin-bottom: 20px;
+}
 
-    
+.element:hover {
+    transform: scale(0.8);
+    height: 80%;
+    width: 80%;
+    opacity: 50%;
 }
 

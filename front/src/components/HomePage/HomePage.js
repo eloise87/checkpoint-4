@@ -53,33 +53,51 @@ const HomePage = () => {
                 la planète.
 
             </p>
-            <div>
-                <img
-                    className="element"
-                    src={require('../../assets/cui.jpeg')}
-                    alt="Votre psychologue Mathilde Tiberghien"
-                />
-            </div>
-            <div>
-                <img
-                    className="element"
-                    src={require('../../assets/cui.jpeg')}
-                    alt="Votre psychologue Mathilde Tiberghien"
-                />
-            </div>
-            <div>
-                <img
-                    className="element"
-                    src={require('../../assets/cui.jpeg')}
-                    alt=""
-                />
-            </div>
-            <div>
-                <img
-                    className="picturePsy"
-                    src={require('../../assets/cui.jpeg')}
-                    alt="Votre psychologue Mathilde Tiberghien"
-                />
+            <div className="elem">
+
+                <div className="divElem">
+                    <a href="https://www.joliessence.com/?gclid=CjwKCAiA44LzBRB-EiwA-jJipLyRunKJB6ykpezQ7rD_v-lxGMMCo8T9Hir-UtUOMIXpW7Y7C4y9yRoCc5gQAvD_BwE"> <img
+                        className="element"
+                        src={require('../../assets/pdb.jpg')}
+                        alt="element"
+                    /></a>
+
+                </div>
+                <div>
+                    <a href="https://www.joliessence.com/?gclid=CjwKCAiA44LzBRB-EiwA-jJipLyRunKJB6ykpezQ7rD_v-lxGMMCo8T9Hir-UtUOMIXpW7Y7C4y9yRoCc5gQAvD_BwE"> <img
+                        className="element"
+                        src={require('../../assets/pdb.jpg')}
+                        alt="element"
+                    /></a>
+                </div>
+                <div>
+                    <a href="https://www.joliessence.com/?gclid=CjwKCAiA44LzBRB-EiwA-jJipLyRunKJB6ykpezQ7rD_v-lxGMMCo8T9Hir-UtUOMIXpW7Y7C4y9yRoCc5gQAvD_BwE"> <img
+                        className="element"
+                        src={require('../../assets/pdb.jpg')}
+                        alt="element"
+                    /></a>
+                </div>
+                <div>
+                    <a href="https://www.joliessence.com/?gclid=CjwKCAiA44LzBRB-EiwA-jJipLyRunKJB6ykpezQ7rD_v-lxGMMCo8T9Hir-UtUOMIXpW7Y7C4y9yRoCc5gQAvD_BwE"> <img
+                        className="element"
+                        src={require('../../assets/pdb.jpg')}
+                        alt="element"
+                    /></a>
+                </div>
+                <div>
+                    <a href="https://www.joliessence.com/?gclid=CjwKCAiA44LzBRB-EiwA-jJipLyRunKJB6ykpezQ7rD_v-lxGMMCo8T9Hir-UtUOMIXpW7Y7C4y9yRoCc5gQAvD_BwE"> <img
+                        className="element"
+                        src={require('../../assets/pdb.jpg')}
+                        alt="element"
+                    /></a>
+                </div>
+                <div>
+                    <a href="https://www.joliessence.com/?gclid=CjwKCAiA44LzBRB-EiwA-jJipLyRunKJB6ykpezQ7rD_v-lxGMMCo8T9Hir-UtUOMIXpW7Y7C4y9yRoCc5gQAvD_BwE"> <img
+                        className="element"
+                        src={require('../../assets/pdb.jpg')}
+                        alt="element"
+                    /></a>
+                </div>
             </div>
         </div>
 
