@@ -155,7 +155,7 @@ fieldset {
     color: #202020;
     width: 40%;
     margin: 20px auto;
-    border: solid 1px black;
+    border: solid 1px #DE8888;
 }
 
 .bonNom .message {

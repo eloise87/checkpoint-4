@@ -2,33 +2,37 @@
     background-color: #ecc9b6;
     font-weight: bold;
     font-size: 1.5em;
+    display:flex;
 }
 
 .cont {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 30%;
     justify-content: space-around;
     align-items: center;
-
-
 }
 
 .element3 {
     width: 200px;
     height: auto;
-
+    margin: auto;
 }
 
 .imageFooter {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
     justify-content: center;
-    background-color: #3c9d9b;
+    width: 30%;
+    padding: 10px;
 }
 
-.cont {
-    width: 20%;
-    background-color: red;
+.mentions {
+    display: flex;
+    justify-content: right;
+    width: 40%;
+    flex-direction: column;
+    align-self: center;
+
 }
