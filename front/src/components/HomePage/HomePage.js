@@ -1,6 +1,7 @@
 import React from 'react';
 import './HomePage.css';
 import NavBar from '../NavBar/NavBar';
+import Footer from '../Footer/Footer';
 
 
 const HomePage = () => {
@@ -111,6 +112,7 @@ const HomePage = () => {
                 </div>
 
             </div>
+            <Footer/>
         </div>
 
 
