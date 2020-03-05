@@ -31,9 +31,9 @@ const NavBar = () => {
             </NavLink> <NavLink
             className="NavLink"
             activeClassName="active"
-            to="/Déco"
+            to="/Deco"
         >
-            <div>Déco</div>
+            <div>Deco</div>
         </NavLink> <NavLink
             className="NavLink"
             activeClassName="active"

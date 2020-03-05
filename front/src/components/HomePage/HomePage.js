@@ -2,6 +2,7 @@ import React from 'react';
 import './HomePage.css';
 import NavBar from '../NavBar/NavBar';
 import Footer from '../Footer/Footer';
+import Avis from '../Avis/Avis';
 
 
 const HomePage = () => {
@@ -110,7 +111,9 @@ const HomePage = () => {
                             alt="element"
                         /></a>
                 </div>
-
+                <div>
+                    <Avis/>
+                </div>
             </div>
             <Footer/>
         </div>
