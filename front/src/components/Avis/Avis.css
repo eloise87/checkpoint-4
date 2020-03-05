@@ -148,23 +148,30 @@ fieldset {
     margin: 20px 0;
 }
 
-.bonNom .message {
-    font-weight: bold;
-    font-size: 1.5em;
-    width: 60%;
-    text-align: justify;
-    margin-left: 10%;
+.bonNom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #202020;
+    width: 40%;
+    margin: 20px auto;
+    border: solid 1px black;
 }
 
-.bonNom .message:first-letter{
+.bonNom .message {
+    text-align: left;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.bonNom .message::first-letter{
     font-size: 1.5em;
     color: #DE8888;
 }
 
 .bonNom .name{
     color: #DE8888;
-    font-size: 1.4em;
-    text-align: right;
-    width: 70%;
-
+    align-self: flex-end;
+    font-size: 1.3em;
+    padding: 10px;
 }

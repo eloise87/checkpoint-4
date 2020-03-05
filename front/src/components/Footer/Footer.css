@@ -1,8 +1,34 @@
 .footer {
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
     background-color: #ecc9b6;
-    padding: 30px;
     font-weight: bold;
+    font-size: 1.5em;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.element3 {
+    width: 200px;
+    height: auto;
+
+}
+
+.imageFooter {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: #3c9d9b;
+}
+
+.cont {
+    width: 20%;
+    background-color: red;
 }
