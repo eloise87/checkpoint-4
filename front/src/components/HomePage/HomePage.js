@@ -24,7 +24,7 @@ const HomePage = () => {
             </div>
             <div>
                 <div className="separate1">
-                    <h1 className="generalTitle">Vers un monde "Zéro Déchet"</h1>
+                    <h1 className="generalTitle2">Vers un monde "Zéro Déchet"</h1>
                 </div>
             </div>
 
@@ -111,9 +111,10 @@ const HomePage = () => {
                             alt="element"
                         /></a>
                 </div>
-                <div>
-                    <Avis/>
-                </div>
+
+            </div>
+            <div>
+                <Avis/>
             </div>
             <Footer/>
         </div>

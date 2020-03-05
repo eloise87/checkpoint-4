@@ -10,7 +10,7 @@ const NavBar = () => {
                 exact
                 className="NavLink"
                 activeClassName="active"
-                to="./"
+                to="/"
             >
                 <div>Accueil</div>
             </NavLink>
@@ -25,7 +25,7 @@ const NavBar = () => {
             <NavLink
                 className="NavLink"
                 activeClassName="active"
-                to="/Santé"
+                to="/Sante"
             >
                 <div>Santé</div>
             </NavLink> <NavLink
@@ -37,7 +37,7 @@ const NavBar = () => {
         </NavLink> <NavLink
             className="NavLink"
             activeClassName="active"
-            to="/Hygiène & Bien-être"
+            to="/Hygiene"
         >
             <div>Hygiène & Bien-être</div>
         </NavLink> <NavLink

@@ -10,7 +10,7 @@ const Maison = () => {
 
                     <NavBar/>
 
-                    <div className="generalTitle">10 astuces méga simples pour se mettre au Zéro Déchet</div>
+                    <div className="generalTitle2">10 astuces méga simples pour se mettre au Zéro Déchet</div>
 
                     <p>
                         Vous vous sentez envahie par tous ces emballages, ces poubelles que vous avez l’impression de vider sans cesse ? Trouver des astuces simples pour commencer avec le zéro déchet devient urgent.

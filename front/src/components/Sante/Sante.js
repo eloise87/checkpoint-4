@@ -10,7 +10,7 @@ const Sante = () => {
 
                 <NavBar/>
 
-                <div className="generalTitle">Astuces zéro déchet santé</div>
+                <div className="generalTitle2">Astuces zéro déchet santé</div>
 
                 <p>
 

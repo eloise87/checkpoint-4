@@ -36,7 +36,7 @@ const Avis = () => {
     return (
         <div>
             <div className="separate">
-                <h1 className="generalTitle">Avis</h1>
+                <h1 className="generalTitle2">Avis</h1>
             </div>
             <div className="style">
                 <div className="title">
