@@ -13,12 +13,15 @@ const Footer = () => {
                     <div className="num">
                         Tel : 02.38.02.01.00
                     </div>
+                    <div className="mail">
+                        hakuna.matata@zerodechet.com
+                    </div>
                 </div>
             </div>
             <div className="imageFooter">
                 <img
                     className="element3"
-                    src={require('../../assets/slide2.jpg')}
+                    src={require('../../assets/z1.png')}
                     alt="element"/>
             </div>
             <div className="mentions">Mentions légales</div>

@@ -11,28 +11,33 @@
     width: 30%;
     justify-content: space-around;
     align-items: center;
+    margin: auto;
 }
 
 .element3 {
-    width: 200px;
-    height: auto;
+
     margin: auto;
 }
 
 .imageFooter {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
     justify-content: center;
-    width: 30%;
+    width: 20%;
     padding: 10px;
+    margin: auto;
 }
 
 .mentions {
     display: flex;
-    justify-content: right;
-    width: 40%;
+    width: 30%;
     flex-direction: column;
     align-self: center;
+    margin: auto;
+}
 
+.num {
+
+    line-height: 105px;
 }
