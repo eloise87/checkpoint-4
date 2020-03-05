@@ -1,34 +1,24 @@
 import React, {useState, useEffect} from "react";
 import './Avis.css';
 
-/*
-const testimony = require('../api/testimonials');
-
-const Testimony = () => {
-    const [testimonials, setTestimonials] = useState([]);
-
-    const [firstname, setFirstname] = useState('');
-    const [text, setText] = useState('');
-
-    const [response, setResponse] = useState('');
-
-    useEffect(() => {
-        (async () => {
-            const data = await testimony.getValidTestimony();
-            setTestimonials(data);
-        })();
-    }, []);
-
-    const sendTestimony = async e => {
-        e.preventDefault();
-        const responseApi = await testimony.createTestimony(firstname, text);
-        setResponse(responseApi);
-    };
-}
-*/
 const Avis = () => {
 
     const [allAvis, setAllAvis] = useState([]);
+
+    const [firstname, setFirstname] = useState("");
+    const [MESSAGE, setMESSAGE] = useState("");
+
+    const handleSubmit = async e => {
+        e.preventDefault();
+        const response = await fetch(`http://localhost:8000/api/`, {
+            method: 'POST',
+            headers: {
+                'Content-type': 'application/json',
+                'Access-Control-Allow-Origin': 'http://localhost:3000'
+            },
+            body: JSON.stringify({firstname, MESSAGE})
+        });
+    };
 
     useEffect(() => {
         (async () => {
@@ -52,7 +42,7 @@ const Avis = () => {
                 <div className="title">
                     <div className="containers">
 
-                        <form id="testimony">
+                        <form id="testimony" onSubmit={handleSubmit}>
                             <label htmlFor="firstname">
                                 Entrez votre prénom ici
                                 <input
@@ -60,6 +50,8 @@ const Avis = () => {
                                     placeholder="Prénom"
                                     type="text"
                                     required
+                                    value={firstname}
+                                    onChange={e=>setFirstname(e.target.value)}
                                 />
                             </label>
                             <label htmlFor="message">
@@ -68,6 +60,8 @@ const Avis = () => {
                                     id="message"
                                     placeholder="Entrez votre message ici...."
                                     required
+                                    value={MESSAGE}
+                                    onChange={e => setMESSAGE(e.target.value)}
                                 />
                             </label>
                             <button name="submit" type="submit">
