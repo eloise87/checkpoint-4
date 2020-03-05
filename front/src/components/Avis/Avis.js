@@ -1,6 +1,4 @@
-import React from "react";
-import NavBar from "../NavBar/NavBar";
-import Footer from "../Footer/Footer";
+import React, {useState, useEffect} from "react";
 import './Avis.css';
 
 /*
@@ -29,6 +27,22 @@ const Testimony = () => {
 }
 */
 const Avis = () => {
+
+    const [allAvis, setAllAvis] = useState([]);
+
+    useEffect(() => {
+        (async () => {
+            const response = await fetch(`http://localhost:8000/api/`, {
+                method: 'GET',
+                headers: {
+                    'Content-type': 'application/json',
+                    'Access-Control-Allow-Origin': 'http://localhost:3000'
+                }
+            });
+            setAllAvis(await response.json());
+        })();
+    }, []);
+
     return (
         <div>
             <div className="separate">
@@ -61,6 +75,14 @@ const Avis = () => {
                             </button>
                         </form>
                     </div>
+                </div>
+                <div>
+                    {allAvis.map(avis => {
+                        return <div className="bonNom">
+                            <div className="message">{avis.MESSAGE}</div>
+                            <div className="name">{avis.firstname}</div>
+                        </div>
+                    })}
                 </div>
             </div>
         </div>
