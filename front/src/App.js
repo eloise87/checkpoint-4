@@ -1,17 +1,19 @@
 import React from 'react';
 import './App.css';
-import HomePage from './components/HomePage/HomePage'
-import Footer from "./components/Footer/Footer";
-import Avis from "./components/Avis/Avis";
+import {Route, Switch} from 'react-router-dom';
+import Homepage from './components/HomePage/HomePage';
+import Maison from './components/Maison/Maison';
+
 
 function App() {
     return (
-        <div className="App">
-            <HomePage />
-            <Avis/>
-            <Footer/>
-        </div>
+        <div>
+            <Switch>
+                <Route path="/Maison" component={Maison}/>
+                <Route path="/" exact component={Homepage}/>
 
+            </Switch>
+        </div>
     );
 }
 
