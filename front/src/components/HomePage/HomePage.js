@@ -1,7 +1,6 @@
 import React from 'react';
 import './HomePage.css';
 import NavBar from '../NavBar/NavBar';
-import Footer from "../Footer/Footer";
 
 
 const HomePage = () => {
@@ -21,7 +20,11 @@ const HomePage = () => {
                 </div>
 
             </div>
-            <div id="generalTitle">Vers un monde Zéro Déchet</div>
+            <div>
+                <div className="separate1">
+                    <h1 className="generalTitle">Vers un monde "Zéro Déchet"</h1>
+                </div>
+            </div>
 
             <p>
                 Aujourd'hui, la question de l'environnement est au cœur du changement. La transition vers le «
@@ -53,51 +56,60 @@ const HomePage = () => {
                 la planète.
 
             </p>
+
+
             <div className="elem">
 
                 <div className="divElem">
-                    <a href="https://www.joliessence.com/?gclid=CjwKCAiA44LzBRB-EiwA-jJipLyRunKJB6ykpezQ7rD_v-lxGMMCo8T9Hir-UtUOMIXpW7Y7C4y9yRoCc5gQAvD_BwE"> <img
-                        className="element"
-                        src={require('../../assets/pdb.jpg')}
-                        alt="element"
-                    /></a>
+                    <a href="https://www.joliessence.com/?gclid=CjwKCAiA44LzBRB-EiwA-jJipLyRunKJB6ykpezQ7rD_v-lxGMMCo8T9Hir-UtUOMIXpW7Y7C4y9yRoCc5gQAvD_BwE">
+                        <img
+                            className="element"
+                            src={require('../../assets/pdb.jpg')}
+                            alt="element"
+                        /></a>
 
                 </div>
                 <div>
-                    <a href="https://www.joliessence.com/?gclid=CjwKCAiA44LzBRB-EiwA-jJipLyRunKJB6ykpezQ7rD_v-lxGMMCo8T9Hir-UtUOMIXpW7Y7C4y9yRoCc5gQAvD_BwE"> <img
-                        className="element"
-                        src={require('../../assets/pdb.jpg')}
-                        alt="element"
-                    /></a>
+                    <a href="https://www.joliessence.com/?gclid=CjwKCAiA44LzBRB-EiwA-jJipLyRunKJB6ykpezQ7rD_v-lxGMMCo8T9Hir-UtUOMIXpW7Y7C4y9yRoCc5gQAvD_BwE">
+                        <img
+                            className="element"
+                            src={require('../../assets/zdm2.jpg')}
+                            alt="element"
+                        /></a>
                 </div>
                 <div>
-                    <a href="https://www.joliessence.com/?gclid=CjwKCAiA44LzBRB-EiwA-jJipLyRunKJB6ykpezQ7rD_v-lxGMMCo8T9Hir-UtUOMIXpW7Y7C4y9yRoCc5gQAvD_BwE"> <img
-                        className="element"
-                        src={require('../../assets/pdb.jpg')}
-                        alt="element"
-                    /></a>
+                    <a href="https://www.joliessence.com/?gclid=CjwKCAiA44LzBRB-EiwA-jJipLyRunKJB6ykpezQ7rD_v-lxGMMCo8T9Hir-UtUOMIXpW7Y7C4y9yRoCc5gQAvD_BwE">
+                        <img
+                            className="element"
+                            src={require('../../assets/zdm.jpg')}
+                            alt="element"
+                        /></a>
                 </div>
                 <div>
-                    <a href="https://www.joliessence.com/?gclid=CjwKCAiA44LzBRB-EiwA-jJipLyRunKJB6ykpezQ7rD_v-lxGMMCo8T9Hir-UtUOMIXpW7Y7C4y9yRoCc5gQAvD_BwE"> <img
-                        className="element"
-                        src={require('../../assets/pdb.jpg')}
-                        alt="element"
-                    /></a>
+                    <a href="https://www.joliessence.com/?gclid=CjwKCAiA44LzBRB-EiwA-jJipLyRunKJB6ykpezQ7rD_v-lxGMMCo8T9Hir-UtUOMIXpW7Y7C4y9yRoCc5gQAvD_BwE">
+                        <img
+                            className="element"
+                            src={require('../../assets/unn2.jpg')}
+                            alt="element"
+                        /></a>
                 </div>
                 <div>
-                    <a href="https://www.joliessence.com/?gclid=CjwKCAiA44LzBRB-EiwA-jJipLyRunKJB6ykpezQ7rD_v-lxGMMCo8T9Hir-UtUOMIXpW7Y7C4y9yRoCc5gQAvD_BwE"> <img
-                        className="element"
-                        src={require('../../assets/pdb.jpg')}
-                        alt="element"
-                    /></a>
+                    <a href="https://www.joliessence.com/?gclid=CjwKCAiA44LzBRB-EiwA-jJipLyRunKJB6ykpezQ7rD_v-lxGMMCo8T9Hir-UtUOMIXpW7Y7C4y9yRoCc5gQAvD_BwE">
+                        <img
+                            className="element"
+                            src={require('../../assets/un1.jpg')}
+                            alt="element"
+                        /></a>
                 </div>
                 <div>
-                    <a href="https://www.joliessence.com/?gclid=CjwKCAiA44LzBRB-EiwA-jJipLyRunKJB6ykpezQ7rD_v-lxGMMCo8T9Hir-UtUOMIXpW7Y7C4y9yRoCc5gQAvD_BwE"> <img
-                        className="element"
-                        src={require('../../assets/pdb.jpg')}
-                        alt="element"
-                    /></a>
+                    <a href="https://www.joliessence.com/?gclid=CjwKCAiA44LzBRB-EiwA-jJipLyRunKJB6ykpezQ7rD_v-lxGMMCo8T9Hir-UtUOMIXpW7Y7C4y9yRoCc5gQAvD_BwE">
+                        <img
+                            className="element"
+                            src={require('../../assets/tawa1.jpg')}
+                            alt="element"
+                        /></a>
                 </div>
+
             </div>
         </div>
 

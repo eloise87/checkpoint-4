@@ -76,23 +76,33 @@
 
 }
 
+.separate1 {
+
+    background: #ecc9b6;
+    width: 100%;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    color: #DE8888;
+    margin: 0 20px 50px 0;
+    padding: 40px;
+
+}
+
 p {
 
     padding: 20px 50px;
     text-align: center;
     font-size: 1.3em;
     line-height: 35px;
-
 }
 
 .elem {
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-
-
 }
 
 .elem div {
