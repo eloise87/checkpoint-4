@@ -25,58 +25,72 @@ const Hygiene = () => {
                     place du déodorant, du dentifrice, de la brosse à dent en plastique et du coton-tige ? Comment fabriquer
                     ses produits d’entretien anticalcaire plus économique et plus écologique ?
 
-                    </p>
+                </p>
 
                 <p>
 
-                    Zéro déchet dans la salle de bain : par quoi remplacer les produits pour se laver ?
+                    Zéro déchet dans la salle de bain : par quoi remplacer les produits pour se laver ? </p>
 
-                    1- Shampoing
+                <h1> 1- Shampoing </h1>
+
+                <p>
 
                     Quand on décide de passer au zéro déchet dans la salle de bain on doit trouver des alternatives aux
                     flacons et aux bouteilles en plastiques qui sont trop souvent utilisés puis mis à la poubelle une fois
-                    vidés. Le shampoing est pourtant quelque chose qu’on peut facilement remplacer.
+                    vidés. Le shampoing est pourtant quelque chose qu’on peut facilement remplacer. </p>
+
+                <p>
 
                     Par quoi peut-on remplacer le shampoing lorsqu’on veut adopter une démarche zéro déchet dans la salle de
                     bain ?
                     Déjà il faut savoir qu’il n’est pas nécessaire de se laver les cheveux tous les jours. Le cuir chevelu
                     produit du sébum pour se protéger donc en le lavant tous les jours avec du shampoing toxique on
                     fragilise les cheveux.
+                </p>
+                <p>
                     La meilleure astuce zéro déchet pour remplacer le shampoing est de ne plus en mettre. En ne mettant plus
                     de shampoing agressif sur les cheveux, le cuir chevelu va réguler sa production de sébum et les cheveux
                     vont graisser de moins en moins donc on n’aura plus besoin de les laver autant. Résultat : consommation
                     d’eau réduite, économie et écologie. Attention, ne plus mettre de shampoing ne signifie pas ne plus
                     laver les cheveux. Comment donc laver les cheveux sans utiliser de shampoing ? Vous pouvez les laver en
-                    fabriquant simplement votre propre produit écologique qui n’agresse pas le cuir chevelu :
+                    fabriquant simplement votre propre produit écologique qui n’agresse pas le cuir chevelu : </p>
 
-                    Recette pour laver les cheveux sans shampoing :
+                <p> Recette pour laver les cheveux sans shampoing : </p>
 
-                    2 cuillères à soupe de bicarbonate extra fin
-                    6 cuillères à soupe d’eau (il faut 1 mesure de bicarbonate pour 3 mesures d’eau).
+                <p> 2 cuillères à soupe de bicarbonate extra fin
+                    6 cuillères à soupe d’eau (il faut 1 mesure de bicarbonate pour 3 mesures d’eau). </p>
+
+                <p>
 
                     Vous obtiendrez une substance pâteuse à appliquer sur vos cheveux de la racine aux pointes. Attention,
                     cela ne mousse pas, il va falloir vous y habituer. La mousse n’est pas synonyme de propreté. Rincez
                     après 1 à 3 minutes. Après avoir appliqué ce premier mélange vous pouvez appliquer un second mélange
-                    pour adoucir vos cheveux :
+                    pour adoucir vos cheveux : </p>
+
+                <p>
 
                     Mélangez 3 cuillères à soupe de vinaigre de cidre avec 1 litre d’eau
                     Ajoutez quelques gouttes d’huile essentielle selon les propriétés (exemple : pour les cheveux ternes et
                     cassants on peut ajouter de l’huile essentielle d’Ylang-Ylang, pour les cheveux gras on peut utiliser de
-                    l’huile essentielle de citron…)
+                    l’huile essentielle de citron…) </p>
+                <p>
+                    L’odeur de vinaigre disparaît au séchage. </p>
 
-                    L’odeur de vinaigre disparaît au séchage.
+                <p>
 
                     Pour aider à espacer les lavages vous pouvez faire des shampoings secs. Les shampoings secs ne lavent
                     pas les cheveux mais ils permettent de capturer l’excès de sébum qui donne une apparence grasse aux
                     cheveux. Vous pouvez appliquez un peu de fécule comme la maïzena, fécule de pomme de terre… sur le
                     sommet du crâne. Brossez ensuite les cheveux.
-                    shampoing solide zéro déchet naturel
+                    shampoing solide zéro déchet naturel. </p>
+                <p>
+                    Sinon il existe des shampoings solides écologiques et Zéro déchet. </p>
 
-                    Sinon il existe des shampoings solides écologiques et Zéro déchet.
+                <p> Ces shampoings sont 100% naturels et se trouvent facilement sur Internet ou dans votre magasin bio
+                    habituel. </p>
 
-                    Ces shampoings sont 100% naturels et se trouvent facilement sur Internet ou dans votre magasin bio habituel.
-
-                    Pour plus d’astuces zéro déchet dans votre quotidien, voici un guide à télécharger qui devrait vous plaire 😉:
+                <p> Pour plus d’astuces zéro déchet dans votre quotidien, voici un guide à télécharger qui devrait vous
+                    plaire 😉:
                 </p>
 
 

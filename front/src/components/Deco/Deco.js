@@ -160,7 +160,7 @@ const Deco = () => {
 
             < Footer/>
 
-            < /div>
+            </div>
 
                 );
                 }

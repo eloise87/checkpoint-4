@@ -73,3 +73,9 @@ a:link, a:visited {
     outline: none;
 }
 
+h1 {
+
+    text-align: center;
+    color: #DE8888;
+
+}
