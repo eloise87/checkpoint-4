@@ -7,7 +7,7 @@ const Sante = () => {
 
         return (
             <div>
-
+                <div id="generalBigTitle">HAKUNA MATATA</div>
                 <NavBar/>
 
                 <div className="generalTitle2">Astuces zéro déchet santé</div>

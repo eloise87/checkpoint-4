@@ -7,7 +7,7 @@ const Zen = () => {
 
         return (
             <div>
-
+                <div id="generalBigTitle">HAKUNA MATATA</div>
                 <NavBar/>
 
                 <div className="generalTitle2">Qu’est-ce que le zen ?
@@ -15,7 +15,9 @@ const Zen = () => {
 
                 <p>
 
-                    Le zen est une voie d’authenticité et d’éveil née de l’expérience du Bouddha Śākyamuni.
+                    Le zen est une voie d’authenticité et d’éveil née de l’expérience du Bouddha Śākyamuni. </p>
+
+                <p>
 
                     Cet homme que l’on appelait également Gautama vivait dans l’Inde du Nord quelques siècles avant
                     Jésus-Christ. De la caste des guerriers, il appartenait au clan des Śākya. On le disait promis à un
@@ -23,57 +25,66 @@ const Zen = () => {
                     ascète errant. Après six années de macérations, renonçant à ses austérités, il rassembla des herbes et
                     s’en fit un siège. Il s’assit droit, les jambes croisées dans la posture du lotus. Après une nuit de
                     méditation, comme il contemplait l’étoile du matin qui pâlissait dans le ciel, le Réel lui apparut
-                    clairement. Il s’exclama alors :
+                    clairement. </p>
 
-                    « Moi et tous les êtres sur la Terre entière avons simultanément réalisé l’éveil. »
+                <h1> Il s’exclama alors : </h1>
 
-                    Il était devenu le Mahāmuni, « le Grand Sage », ou plus communément le Śākyamuni, « le Sage des Śākya ».
-                    Il se leva et enseigna aux hommes pendant quarante-cinq ans.
+                <p> « Moi et tous les êtres sur la Terre entière avons simultanément réalisé l’éveil. » </p>
 
-                    Le zen, en tant qu’école indépendante, apparaît en Chine vers les sixième et septième siècle après
+                <p> Il était devenu le Mahāmuni, « le Grand Sage », ou plus communément le Śākyamuni, « le Sage des Śākya ».
+                    Il se leva et enseigna aux hommes pendant quarante-cinq ans. </p>
+
+                <p> Le zen, en tant qu’école indépendante, apparaît en Chine vers les sixième et septième siècle après
                     Jésus-Christ et s’inscrit dans le courant dit du Grand Véhicule. Deux ou trois siècles auparavant, un
                     mystérieux moine indien, le fantasque Bodhidharma se serait retiré dans une grotte à Shaolin et aurait
-                    apporté, dit-on, la fleur du zen dans ces terres orientales. Un poème lui est attribué :
+                    apporté, dit-on, la fleur du zen dans ces terres orientales. </p>
 
-                    Originellement, je suis venu sur cette terre
+                <h1> Un poème lui est attribué : </h1>
+
+                <p> Originellement, je suis venu sur cette terre
                     Pour transmettre l’enseignement et sauver les êtres égarés.
                     Une fleur s’ouvre en cinq pétales,
-                    Et le fruit mûrit naturellement.
+                    Et le fruit mûrit naturellement. </p>
 
-                    Cinq écoles zen fleurirent effectivement en Chine aux époques Tang (618-907) puis Song (960-1127). Les
+                <p> Cinq écoles zen fleurirent effectivement en Chine aux époques Tang (618-907) puis Song (960-1127). Les
                     écoles Linji et Caodong, Rinzai et Sōtō dans la prononciation japonaise, sont les plus connues. Le zen
                     se transmit ensuite dans tous les pays d’influence chinoise, en Corée, au Viêt-Nam et même au Tibet.
                     Comme quelques autres moines japonais, Dōgen (1200-1253) visita les grands monastères de la côte Est de
                     la Chine et ramena à son tour les graines du zen dans son propre pays. Quelques générations après, le
-                    zen devenait l’une des principales écoles bouddhistes du Japon.
+                    zen devenait l’une des principales écoles bouddhistes du Japon. </p>
+
+                <p>
 
                     Le zen n’est ni une gymnastique ni une technique de bien-être. Pour celui qui s’engage dans cette voie,
                     il s’agit de vivre totalement, avec son corps et son esprit, de s’engager à prendre soin de soi comme de
-                    son prochain, d’affronter également ses propres peurs et ses névroses.
+                    son prochain, d’affronter également ses propres peurs et ses névroses. </p>
+
+                <p>
 
                     Si l’on s’en tient à une formule classique, la pratique du zen consiste à « résoudre la grande affaire
                     de la vie et de la mort » (Sūtra du Lotus). Nous sommes tous confrontés aux questions fondamentales :
                     celles de la souffrance, de la détresse et de la mort, la nôtre comme celle d’autrui. Le bouddhisme
                     prend à bras le corps ces affaires-là, celles qui nous taraudent vraiment. Pour vivre avec douceur et
                     éveil.
-
+                </p>
+                <p>
                     L’expérience du zen repose sur l’approfondissement conjoint d’une méditation, d’une intelligence et
-                    d’une discipline.
+                    d’une discipline. </p>
 
-                    Enseigner le silence intérieur, faire taire les luttes et les conflits étaient le grand dessein du
+                <p> Enseigner le silence intérieur, faire taire les luttes et les conflits étaient le grand dessein du
                     Bouddha pour les hommes. La méditation est la pratique de ce silence. Le Bouddha Śākyamuni s’est exclamé
                     : « Moi et tous les êtres sur la Terre entière avons simultanément réalisé l’éveil. » Cela signifie que
                     le monde entier, nous-mêmes, sommes originellement en paix. Pratiquer la méditation, c’est réaliser et
-                    vivre cette paix.
+                    vivre cette paix. </p>
 
-                    Mystérieusement, la méditation n’apporte rien et pourtant elle change tout. Bouleversé par la découverte
+                <p> Mystérieusement, la méditation n’apporte rien et pourtant elle change tout. Bouleversé par la découverte
                     de cette paix, on réinvestit chacun de ses gestes avec intelligence. Une tendresse, une bonté et une
                     beauté s’en dégagent naturellement. L’éthique, un mot pour exprimer toute la justesse de nos actes,
                     manifeste cette intelligence. Elle s’accomplit totalement dans l’amour et la compassion. Son éthique est
                     celle du bodhisattva : ne pas faire le mal, faire le bien et aider autrui. Des principes simples et
-                    pourtant si difficiles à pratiquer…
+                    pourtant si difficiles à pratiquer… </p>
 
-                    Les graines du zen ont déjà été semées en Occident depuis une cinquantaine d’années. De nombreuses
+                <p> Les graines du zen ont déjà été semées en Occident depuis une cinquantaine d’années. De nombreuses
                     fleurs se sont ouvertes depuis. À nous de les cueillir.
                 </p>
 

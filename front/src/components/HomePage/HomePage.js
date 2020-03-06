@@ -32,43 +32,49 @@ const HomePage = () => {
                 Aujourd'hui, la question de l'environnement est au cœur du changement. La transition vers le «
                 Zéro déchet » fait partie des solutions pour nous aider à vivre en harmonie avec la Nature. Sur
                 le site de My Little Cabane, on vous propose les produits de la vie courante les plus durables,
-                réutilisables et économiques afin de vous rendre la vie plus facile.
-
+                réutilisables et économiques afin de vous rendre la vie plus facile. </p>
+            <p>
                 Vous voulez vous passer des emballages plastiques et diminuer votre impact sur l'environnement ?
                 Consultez notre sélection de produits compostables et biodégradables pour la maison, l'hygiène,
-                les enfants et le bureau.
+                les enfants et le bureau. </p>
 
-                Pourquoi passer au zéro déchet ?
+            <h1> Pourquoi passer au zéro déchet ? </h1>
 
-                Passer au « Zéro déchet » est une démarche bienveillante envers notre planète. C'est prendre
+            <p> Passer au « Zéro déchet » est une démarche bienveillante envers notre planète. C'est prendre
                 conscience que nos choix ont un impact sur l'environnement. Le « Zéro déchet » est un mode de
                 vie qui nous amène à nous questionner sur nos réels besoins et les choses essentielles de la
                 vie. Contrairement aux idées reçues, choisir des produits écologiques, durables et réutilisables
-                est économique.
+                est économique. </p>
 
-                Quelles économies allez-vous réaliser ?
+            <h1> Quelles économies allez-vous réaliser ? </h1>
 
-                En réfléchissant à nos habitudes de consommation, on identifie nos besoins superflus et ceux qui
+            <p> En réfléchissant à nos habitudes de consommation, on identifie nos besoins superflus et ceux qui
                 sont essentiels. Cela nous invite consciemment à ne pas surconsommer et nous permet de faire des
                 économies. Le recyclage et le compostage s'inscrivent également dans la démarche « Zéro déchet
                 ». On réutilise et on répare pour offrir une seconde vie aux objets. Ainsi nous arrêtons
-                d'acheter du neuf quand cela n'est pas utile.
+                d'acheter du neuf quand cela n'est pas utile. </p>
 
-                Le « Zéro déchet » c'est tout simplement la fin du gaspillage pour une meilleure protection de
+            <p> Le « Zéro déchet » c'est tout simplement la fin du gaspillage pour une meilleure protection de
                 la planète.
 
             </p>
 
 
-            <div className="elem">
+            < div
+                className="elem">
 
-                <div className="divElem">
-                    <a href="https://www.joliessence.com/?gclid=CjwKCAiA44LzBRB-EiwA-jJipLyRunKJB6ykpezQ7rD_v-lxGMMCo8T9Hir-UtUOMIXpW7Y7C4y9yRoCc5gQAvD_BwE">
-                        <img
+                < div
+                    className="divElem">
+                    < a
+                        href="https://www.joliessence.com/?gclid=CjwKCAiA44LzBRB-EiwA-jJipLyRunKJB6ykpezQ7rD_v-lxGMMCo8T9Hir-UtUOMIXpW7Y7C4y9yRoCc5gQAvD_BwE">
+                        < img
                             className="element"
-                            src={require('../../assets/pdb.jpg')}
+                            src={require('../../assets/pdb.jpg'
+                            )
+                            }
                             alt="element"
-                        /></a>
+                            />
+                        </a>
 
                 </div>
                 <div>
@@ -120,8 +126,8 @@ const HomePage = () => {
         </div>
 
 
-    )
-        ;
+)
+;
 };
 
 export default HomePage;

@@ -7,7 +7,7 @@ const Hygiene = () => {
 
         return (
             <div>
-
+                <div id="generalBigTitle">HAKUNA MATATA</div>
                 <NavBar/>
 
                 <div className="generalTitle2">Zéro déchet dans la salle de bain et aux toilettes

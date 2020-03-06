@@ -7,6 +7,7 @@ const Maison = () => {
 
         return (
             <div>
+                <div id="generalBigTitle">HAKUNA MATATA</div>
 
                 <NavBar/>
 

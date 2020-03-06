@@ -7,7 +7,7 @@ const Produits = () => {
 
         return (
             <div>
-
+                <div id="generalBigTitle">HAKUNA MATATA</div>
                 <NavBar/>
 
                 <div className="generalTitle2">Les dix essentiels d’une routine zéro déchet
