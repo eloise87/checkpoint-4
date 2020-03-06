@@ -50,15 +50,26 @@
 
 
 
-div p {
+ p {
 
     padding: 20px 50px;
     text-align: center;
-    font-size: 1.5em;
-    line-height: 35px;
+    font-size: 1em;
+    line-height: 30px;
+     width: 80%;
+     margin: auto;
+
 }
 
 body {
     background-color: whitesmoke;
 
 }
+
+a:link, a:visited {
+
+    text-decoration: none;
+    color: #202020;
+    outline: none;
+}
+

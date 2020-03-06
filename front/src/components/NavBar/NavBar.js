@@ -33,7 +33,7 @@ const NavBar = () => {
             activeClassName="active"
             to="/Deco"
         >
-            <div>Deco</div>
+            <div>Déco</div>
         </NavLink> <NavLink
             className="NavLink"
             activeClassName="active"

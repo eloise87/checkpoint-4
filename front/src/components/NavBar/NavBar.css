@@ -20,3 +20,8 @@
 .NavBar ul li:hover {
     background: #DE8888;
 }
+
+.active div{
+
+    color: #7D634E;
+}
