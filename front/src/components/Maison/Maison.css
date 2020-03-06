@@ -1,0 +1,13 @@
+.pho{
+
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    margin: auto;
+
+
+}

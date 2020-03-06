@@ -10,7 +10,7 @@ const Hygiene = () => {
 
                 <NavBar/>
 
-                <div className="generalTitle2">Zéro déchet dans la salle de bain et aux toilettes, 10 astuces/DIY hygiène
+                <div className="generalTitle2">Zéro déchet dans la salle de bain et aux toilettes
                 </div>
 
                 <p>
@@ -24,6 +24,10 @@ const Hygiene = () => {
                     quoi remplacer les serviettes hygiéniques et les tampons, le papier toilette ? Que peut-on utiliser à la
                     place du déodorant, du dentifrice, de la brosse à dent en plastique et du coton-tige ? Comment fabriquer
                     ses produits d’entretien anticalcaire plus économique et plus écologique ?
+
+                    </p>
+
+                <p>
 
                     Zéro déchet dans la salle de bain : par quoi remplacer les produits pour se laver ?
 
